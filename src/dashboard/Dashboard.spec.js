@@ -10,6 +10,7 @@ let wrapper;
 beforeEach(() => {
   wrapper = rtl.render(<Dashboard />);
 });
+// const comp=component.find()
 describe("Dashboard component", () => {
   test("matches the snapshot!", () => {
     expect(wrapper.container).toMatchSnapshot();

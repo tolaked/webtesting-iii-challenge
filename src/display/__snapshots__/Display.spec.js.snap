@@ -6,9 +6,9 @@ exports[`Dashboard component matches the snapshot! 1`] = `
     class="display panel"
   >
     <div
-      class="led red-led"
+      class="led green-led"
     >
-      Locked
+      Unlocked
     </div>
     <div
       class="led green-led"
